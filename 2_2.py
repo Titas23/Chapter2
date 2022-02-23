@@ -35,9 +35,9 @@ count = praise.upper().count("G")
 
 print("count : ", count)
 
-town = input("Enter the name of your city: ")
+# town = input("Enter the name of your city: ")
 
 full_name = input("Enter a full name: ")
-n = full_name.rfind(" ")
-print("Last name:", full_name[n+1: ])
-print("First name(s): ", full_name[:n])
+new_name = full_name.rfind(" ")
+print("Last name:", full_name[new_name+1: ])
+print("First name(s): ", full_name[:new_name])

@@ -1,44 +1,41 @@
 
 
+myvar = "Say it ain't so"
+
+print(myvar)
 
 
+var2 = "spam & eggs"
 
-# # myvar = "Say it ain't so"
+spam = "spam" 
+eggs = "eggs" 
 
-# # print(myvar)
+spam_and_eggs = spam + " & " + eggs
 
+print("var2", var2)
 
-# # var2 = "spam & eggs"
+print(var2[0])
+print(var2[:])
+print(var2.rfind('s'))
+print(spam_and_eggs)
 
-# # spam = "spam" 
-# # eggs = "eggs" 
+length = len(spam_and_eggs)
 
-# # spam_and_eggs = spam + " & " + eggs
-
-# # print("var2", var2)
-
-# # print(var2[0])
-# # print(var2[:])
-# # print(var2.rfind('s'))
-# # print(spam_and_eggs)
-
-# # length = len(spam_and_eggs)
-
-# # print(length)
-# # print(spam_and_eggs.upper())
-# # print(spam_and_eggs.lower())
-# # print(spam_and_eggs.count("sp"))
-# # print(spam_and_eggs.capitalize())
-# # print(spam_and_eggs.title())
-# # print(spam_and_eggs.strip())
+print(length)
+print(spam_and_eggs.upper())
+print(spam_and_eggs.lower())
+print(spam_and_eggs.count("sp"))
+print(spam_and_eggs.capitalize())
+print(spam_and_eggs.title())
+print(spam_and_eggs.strip())
 
 
-# praise = "Good Doggie"
-# count = praise.upper().count("G")
+praise = "Good Doggie"
+count = praise.upper().count("G")
 
-# print("count : ", count)
+print("count : ", count)
 
-# town = input("Enter the name of your city: ")
+town = input("Enter the name of your city: ")
 
 full_name = input("Enter a full name: ")
 n = full_name.rfind(" ")
